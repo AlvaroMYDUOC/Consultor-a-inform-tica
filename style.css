@@ -3,9 +3,32 @@ header {
     background-color: #f8f7f6;
     text-align: center;
     font-size: 5em;
-    color: #968c81;
+    color: #aca094;
 }
 
 span {
     color: #e9d66b;
+    float: left;
+    font-size: 0.5em;
+    margin-top: 0.5em;
+}
+
+#code {
+    float: left;
+    font-size: 0.5em;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+#We {
+    float: left;
+    font-size: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#nom {
+    float: right;
+    font-size: 1em;
+    margin-right: 1em;
 }
