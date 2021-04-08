@@ -1,76 +1,147 @@
-header {
-    font-family: sans-serif;
-    background-color: #f8f7f6;
+body {
+    font-family: arial, helvetica;
+    background-size: 100%;
+    color: #000000;
+}
+
+.inicio {
+    background-image: url(https://www.signea.fi/wp-content/uploads/2018/07/Signea-Intranet.jpg);
+    background-size: 100%;
+    color: #c2c0c0;
+    font-size: 120px;
+    margin-top: -20px;
+}
+
+#div00 {
+    background: #000000;
+    padding: 20px;
+    color: #c2c0c0;
+    font-size: 25px;
+}
+
+.card-group {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px #00000033;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translate(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+}
+
+.card .card-group {
+    padding: 15px;
     text-align: center;
-    font-size: 5em;
-    color: #aca094;
 }
 
-span {
-    color: #e9d66b;
-    float: left;
-    font-size: 0.5em;
-    margin-top: 0.5em;
+.card .card-group p {
+    line-height: 1.5;
+    color: #6a6a6a;
 }
 
-#code {
-    float: left;
-    font-size: 0.5em;
-    margin-top: 1em;
-    margin-left: 0.5em;
+.card .card-group h5 {
+    font-weight: 400;
+    margin-bottom: 15px;
 }
 
-#We {
-    float: left;
-    font-size: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+.card .card-group {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
 }
 
-#nom {
-    float: right;
-    font-size: 1em;
-    margin-right: 1em;
+.carrusel {
+    margin: auto;
+    width: 40vw;
+    height: 20vh;
 }
 
-#eric {
-    font-family: arial;
-    line-height: 20px;
+.menu {
+    list-style: none;
+    padding: 20px;
+    background: #000000;
+    margin: auto;
+    font-size: 15PX;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
     text-align: center;
-    background: #fabe3c;
+}
+
+.menu li a:hover {
+    background: #f76300;
+}
+
+.intro {
+    margin-top: 20px;
+}
+
+body {
+    text-align: center;
 }
 
 #div0 {
     font-family: arial;
     text-align: center;
-    font-size: 2em;
-    color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    padding: 40px;
+    font-size: 2.3em;
 }
 
-#sergio {
-    width: 100%;
-    height: 300vh;
-    color: #ffffff;
-    background: #e49621;
-    background-size: 400% 400%;
+#trab {
+    font-size: 100px;
 }
 
-.row {
-    justify-content: space-evenly;
+#div2 {
+    font-size: 1.5em;
+    font-family: Arial;
 }
 
-#div5 {
+#div3 {
     font-family: arial;
-    font-size: 65PX;
+    font-size: 1em;
     text-align: center;
 }
 
-#div6 {
-    font-family: arial;
-    font-size: 1em;
+.cli {
+    font-size: 80px;
+}
+
+.cli2 {
+    font-size: 20px;
+}
+
+.clientes {
+    font-size: 15PX;
+}
+
+.clientes li {
+    display: inline-block;
     text-align: center;
 }
