@@ -7,7 +7,7 @@ body {
 .inicio {
     background-image: url(https://www.signea.fi/wp-content/uploads/2018/07/Signea-Intranet.jpg);
     background-size: 100%;
-    color: #c2c0c0;
+    color: #000000;
     font-size: 120px;
     margin-top: -20px;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .menu li a:hover {
-    background: #f76300;
+    background: #f1ca1b;
 }
 
 .intro {
