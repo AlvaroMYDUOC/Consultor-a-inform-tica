@@ -147,6 +147,16 @@ body {
 }
 
 
+/*RESOLUCION PARA CELULARES MUY PEQUEÑOS*/
+
+@media(min-width: 575px) {}
+
+
+/*RESOLUCION PARA CELULARES PEQUEÑOS*/
+
+@media(min-width: 576px) and (max-width: 767px) {}
+
+
 /*RESOLUCION PARA TABLETS*/
 
 @media(min-width: 768px) and (max-width:991px) {}
