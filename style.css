@@ -145,3 +145,13 @@ body {
     display: inline-block;
     text-align: center;
 }
+
+
+/*RESOLUCION PARA TABLETS*/
+
+@media(min-width: 768px) and (max-width:991px) {}
+
+
+/*RESOLUCION PARA PC ESCRITORIO*/
+
+@media(min-width: 992px) {}
