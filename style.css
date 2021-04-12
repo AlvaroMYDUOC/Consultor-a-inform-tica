@@ -54,7 +54,7 @@
         font-size: 2.67vw;
     }
     #fondo1 {
-        background: #ee7220;
+        background-image: url(https://img.17qq.com/images/hrhuawwutax.jpeg);
         padding: 3vw;
     }
     .card-group {
@@ -131,7 +131,7 @@
         padding: 1vw;
         color: #c2c0c0;
         font-size: 2.67vw;
-        margin-top: -1.2vw;
+        margin-top: -1.6vw;
         margin-bottom: 2vw;
     }
     #div2 {
@@ -168,7 +168,7 @@
         /* este valor debe ser igual o mayor al alto del pie */
     }
     #pie {
-        height: 4.5vw;
+        height: 6vw;
         line-height: 0vw;
         background: #000000;
         color: #c2c0c0;
@@ -198,7 +198,8 @@
     }
     #fondo {
         margin-top: -2vw;
-        background: #ee7220;
+        background-image: url(https://img.17qq.com/images/hrhuawwutax.jpeg);
+        background-size: 110vw;
         padding: 3vw;
     }
 }
