@@ -5,12 +5,19 @@ body {
 
 #LOGO {
     float: left;
-    margin-left: 230px;
+    margin-bottom: 3vw;
 }
 
 #LOGO2 {
-    float: right;
-    margin-left: 300px;
+    float: left;
+    margin-bottom: 10vw;
+    margin-left: 7vw;
+}
+
+#LOGO3 {
+    float: left;
+    margin-bottom: 10vw;
+    margin-left: 7vw;
 }
 
 #parrafo1 {
@@ -20,6 +27,27 @@ body {
     margin-right: 200px;
     margin-top: 55px;
     float: right;
+    text-align: center;
+}
+
+#parrafo2 {
+    color: #f3db00;
+    width: 700px;
+    height: 300px;
+    margin-right: 200px;
+    margin-top: 55px;
+    float: right;
+    text-align: center;
+}
+
+#parrafo3 {
+    color: #f3db00;
+    width: 700px;
+    height: 300px;
+    margin-right: 200px;
+    margin-top: 55px;
+    float: right;
+    text-align: center;
 }
 
 .menu {
