@@ -1,76 +1,27 @@
 @media(min-width: 992px) {
+    .icon-chevron-small-up {
+        display: none;
+        padding: 1.04vw;
+        background: #00000096;
+        font-size: 2.5vw;
+        color: #ffffff;
+        cursor: pointer;
+        position: fixed;
+        bottom: 1.04vw;
+        right: 1.04vw;
+        border-radius: 1.04vw;
+    }
     body {
         font-family: arial, helvetica;
         background-size: 100%;
         color: #000000;
     }
-    .inicio {
-        background-image: url(https://www.signea.fi/wp-content/uploads/2018/07/Signea-Intranet.jpg);
-        background-size: 100%;
-        color: #c2c0c0;
-        font-size: 12.83vw;
-        margin-top: -2.13;
-    }
-    #div00 {
-        background: #000000;
-        padding: 2.13vw;
-        color: #c2c0c0;
-        font-size: 2.67vw;
-    }
-    .card-group {
-        width: 100%;
-        display: flex;
-        max-width: 117.64vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .card {
-        width: 100%;
-        margin: 2.13vw;
-        border-radius: 0.64vw;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0vw 0.10vw 1.06vw rgba(0, 0, 0, 0.2);
-        cursor: default;
-        transition: all 400ms ease;
-    }
-    .card:hover {
-        box-shadow: 0.53vw 0.53vw 2.13vw rgba(0, 0, 0, 0.4);
-        transform: translate(-3%);
-    }
-    .card img {
-        width: 100%;
-        height: 32.08vw;
-    }
-    .card .card-group {
-        padding: 1.60vw;
-        text-align: center;
-    }
-    .card .card-group p {
-        line-height: 1.5;
-        color: #6a6a6a;
-    }
-    .card .card-group h5 {
-        font-weight: 400;
-        margin-bottom: 1.60vw;
-    }
-    .card .card-group {
-        text-decoration: none;
-        display: inline-block;
-        padding: 1.06vw;
-        margin-top: 1.06vw;
-    }
-    .carrusel {
-        margin: auto;
-        width: 40vw;
-        height: 19.57vw;
-    }
     .menu {
         list-style: none;
-        padding: 2.13vw;
+        padding: 0.3vw;
         background: #000000;
         margin: auto;
-        font-size: 1.60vw;
+        font-size: 1.2vw;
     }
     .menu li a {
         text-decoration: none;
@@ -83,30 +34,105 @@
         text-align: center;
     }
     .menu li a:hover {
-        background: #ee7220;
+        background: #9494941e;
     }
     .intro {
         margin-top: 2.13vw;
     }
-    body {
+    .inicio {
+        background-image: url(https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/web-development-t.jpg);
+        background-size: 100%;
+        -webkit-text-stroke: 0.052vw #000000;
+        color: #c2c0c0;
+        font-size: 8vw;
+        margin-top: -2.13vw;
+    }
+    #div00 {
+        background: #000000;
+        padding: 1vw;
+        color: #c2c0c0;
+        font-size: 2.67vw;
+    }
+    #fondo1 {
+        background: #ee7220;
+        padding: 3vw;
+    }
+    .card-group {
+        width: 100%;
+        display: flex;
+        max-width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        width: 100%;
+        margin: 2.13vw;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0vw 0.10vw 1.06vw #00000033;
+        cursor: default;
+        transition: all 400ms ease;
+    }
+    .card:hover {
+        box-shadow: 0.53vw 0.53vw 2.13vw #00000066;
+        transform: translate(-3%);
+    }
+    .card img {
+        width: 100%;
+        height: 20vw;
+    }
+    .card .card-group {
+        padding: 1.60vw;
         text-align: center;
     }
+    .card .card-group p {
+        line-height: 1.5vw;
+        color: #6a6a6a;
+    }
+    .card .card-group h5 {
+        font-weight: 400vw;
+        margin-bottom: 1.60vw;
+    }
+    .card .card-group {
+        text-decoration: none;
+        display: inline-block;
+        padding: 1.06vw;
+        margin-top: 1.06vw;
+    }
+    #ser {
+        background: #000000;
+        padding: 1vw;
+        color: #c2c0c0;
+        font-size: 2.67vw;
+    }
     #div0 {
-        background-image: url(https://i.ibb.co/T00hVgg/fondo-1.jpg);
+        background-image: url(https://www.signea.fi/wp-content/uploads/2018/07/Signea-Intranet.jpg);
         background-size: 100%;
         color: #d6d6d6;
-        font-size: 6.41vw;
+        font-size: 4vw;
         text-align: center;
-        margin-top: 2.67vw;
     }
     #texto {
         color: #d6d6d6;
-        text-shadow: 0.32 0vw 0vw #000000, 0vw 0.32vw 0vw #000000, -0.32vw 0vw 0vw #000000, 0vw -0.32vw 0vw #000000;
-        font-size: 4.81vw;
+        font-size: 2.9vw;
+        -webkit-text-stroke: 0.052vw #000000;
+        text-align: center;
+    }
+    .carrusel {
+        margin: auto;
+        width: 40vw;
+        height: 19.57vw;
+    }
+    body {
         text-align: center;
     }
     #trab {
-        font-size: 10.69vw;
+        background: #000000;
+        padding: 1vw;
+        color: #c2c0c0;
+        font-size: 2.67vw;
+        margin-top: -1.2vw;
+        margin-bottom: 2vw;
     }
     #div2 {
         font-size: 1.87vw;
@@ -118,10 +144,12 @@
         text-align: center;
     }
     #cli {
-        font-size: 8.55vw;
+        font-size: 5vw;
+        color: #c2c0c0;
     }
-    .cli2 {
-        font-size: 20px;
+    #cli2 {
+        font-size: 2vw;
+        color: #c2c0c0;
     }
     .clientes {
         font-size: 2.13vw;
@@ -133,13 +161,14 @@
     #pagina {
         position: relative;
         min-height: 100%;
+        margin-top: -1.2vw;
     }
     #contenido {
         padding-bottom: 5.34vw;
         /* este valor debe ser igual o mayor al alto del pie */
     }
     #pie {
-        height: 6.95vw;
+        height: 4.5vw;
         line-height: 0vw;
         background: #000000;
         color: #c2c0c0;
@@ -166,5 +195,10 @@
         position: absolute;
         bottom: 0;
         right: 0;
+    }
+    #fondo {
+        margin-top: -2vw;
+        background: #ee7220;
+        padding: 3vw;
     }
 }
