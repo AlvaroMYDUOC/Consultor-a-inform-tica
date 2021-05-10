@@ -246,6 +246,14 @@
         height: 50vh;
         width: 100%;
     }
+    #indi {
+        color: #c2c0c0;
+        font-size: 2vw;
+    }
+    #in {
+        color: #c2c0c0;
+        font-size: 1vw;
+    }
 }
 
 @media(min-width: 992px) {
