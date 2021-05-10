@@ -67,6 +67,7 @@
     }
     .card-group {
         width: 100%;
+        height: 100%;
         display: flex;
         max-width: 75vw;
         max-height: 50vw;
@@ -83,15 +84,15 @@
         transition: all 400ms ease;
     }
     .card-title {
-        font-size: 2vw;
+        font-size: 1vw;
     }
     .card-text {
-        font-size: 2vw;
+        font-size: 1vw;
     }
     .btn.btn-primary {
-        width: 20vw;
-        height: 7vw;
-        font-size: 2vw;
+        width: 10vw;
+        height: 2vw;
+        font-size: 1vw;
     }
     .card:hover {
         box-shadow: 0.53vw 0.53vw 2.13vw #00000066;
@@ -240,6 +241,18 @@
         background-image: url(https://lh3.googleusercontent.com/pUdC0Frhazax-8Q1vQbJUtpCPZVrLwhQCm6a7rw6Oz6wrEg5KaO46IJqI1L2X0ZD7Cy6yZEoIokV-JUyTS5DVlHIg22DFKuHj0DjA86KQQ4cLZTMsLUMMpfbUBhwFdcgtolSt8PjVpJvoHTm9UmCrXPgvA9U4W0fJwC990NBoXOX-pANhaaI_uxxyWQzqndnCs2vawdntX8eYTfvl3xJAD7p22fPk0EcRvnWksb6aKJJZLMTvaTCyFja09IzXx3WiYdeg27uJpl_uTvV5M8jR-1ebA2Q5O7spN4CeUYZxa_MbPx0UkmWCQWPiQsHYff5wESb_F1D6970yffiA7IMh3_-DmHZwfwdD8Q3vX3SoyuJQrkRhaFkP4Oy84TE9WNTmXD4f0STwkAKHWZSfq4053qzMeu0T6zpMzKX5hGfJZ_BmwhKqC38gJHb-kt1pTwlHHnafO23tshDeVqpduQaeXV3P60JAckusmyvp5GERMbuTmXppJXGmLH79s8sK5WV2vVE3KnASbzBMNsEqYZomo6h2dYK5ZhVFS9ieLSPgLmmIMrawf2ZjIp4GygK1Hf7YXaBvvCPLOhMQIZ-UjneGTyku3NV-237c3Y6W4cDvF_6MtYWLmQW0RQbRWLWeHzoqAfnR-fl2VwXV8ZTWAqshB7gH76MHSO1iAxr5mEO7lJtIOXMzjk1ScqS3CFbN_9BTxj2iIJ1-LW0deIDeU2JHvY=w1666-h937-no?authuser=0);
         background-size: 130vw;
         padding: 3vw;
+    }
+    #map {
+        height: 50vh;
+        width: 100%;
+    }
+    #indi {
+        color: #c2c0c0;
+        font-size: 2vw;
+    }
+    #in {
+        color: #c2c0c0;
+        font-size: 1vw;
     }
 }
 

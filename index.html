@@ -46,24 +46,24 @@
             </div>
             <div id="fondo1">
                 <div class="card-group">
-                    <div class="card">
-                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFxtDMu1tL3ug/profile-displayphoto-shrink_400_400/0/1516520717668?e=1622678400&v=beta&t=2RDupysZVjd9isP2kKijCSn6P3oxd8XbheIPLq0AMyg" width="1" height="300" class="card-img-top" alt="RICARDO">
+                    <div class="card text-white bg-dark mb-3">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFxtDMu1tL3ug/profile-displayphoto-shrink_400_400/0/1516520717668?e=1622678400&v=beta&t=2RDupysZVjd9isP2kKijCSn6P3oxd8XbheIPLq0AMyg" class="card-img-top" alt="RICARDO">
                         <div class="card-body">
                             <h5 class="card-title">Ricardo Pantoja</h5>
                             <p class="card-text">Ingeniero en Informatica</p>
 
-                            <a href="https://www.linkedin.com/in/ricardo-pantoja-3b0ba813/" class="btn btn-primary">Mostrar Linkedin</a>
+                            <a href="https://www.linkedin.com/in/ricardo-pantoja-3b0ba813/" class="btn btn-light">Mostrar Linkedin</a>
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card text-white bg-dark mb-3">
                         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHKmrsLGR36Sw/profile-displayphoto-shrink_400_400/0/1524263775816?e=1622678400&v=beta&t=MxhW6P8LmQ-rGvc2rIGauzUeM9FPFjNwduFEtZj-354" width="1" height="300" class="card-img-top" alt="GLADYS
                               ">
                         <div class="card-body">
                             <h5 class="card-title">Gladys Soto</h5>
                             <p class="card-text">Ingeniera en Informatica</p>
 
-                            <a href="https://www.linkedin.com/in/gladys-soto-8b806b24/" class="btn btn-primary">Mostrar Linkedin</a>
+                            <a href="https://www.linkedin.com/in/gladys-soto-8b806b24/" class="btn btn-light">Mostrar Linkedin</a>
                         </div>
                     </div>
 
@@ -88,8 +88,8 @@
             <div id="div0">
 
                 <div id="texto">
-                    <p>Empresa destinada a Asesorar y Acompañar en los desarrollos de Sistemas Informáticos. <br> Principalmente en Sistemas SAP. Nuestro principal negocio es el Desarrollo y Soporte en SAP.
-                        <br> Hemos hecho desde Desarrollos ABAP hasta Configuración Funcional en distintos Módulos. <br> Los principales Módulos en los que se han Trabajado son CRM, MM, SD, FI, LE. <br> He integraciones con SAP PO.</p>
+                    <p>Empresa destinada a Asesorar y Acompañar en los desarrollos de Sistemas Informáticos. Principalmente en Sistemas SAP. Nuestro principal negocio es el Desarrollo y Soporte en SAP. Hemos hecho desde Desarrollos ABAP hasta Configuración
+                        Funcional en distintos Módulos. Los principales Módulos en los que se han Trabajado son CRM, MM, SD, FI, LE. He integraciones con SAP PO.</p>
                 </div>
             </div>
         </section>
@@ -110,12 +110,12 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <a href="agrosuper.html">
-                                            <img src="https://i.ibb.co/w4934JL/klipartz-com.png" class="d-block w-100" alt="...">
+                                            <img src="https://asq.cl/wp-content/uploads/2018/07/logo_agrosuper.png" class="d-block w-100" alt="...">
                                         </a>
                                     </div>
                                     <div class="carousel-item">
                                         <a href="agrosuper.html">
-                                            <img src="http://download.seaicons.com/download/i83642/pelfusion/long-shadow-media/pelfusion-long-shadow-media-lcd-monitor.ico" class="d-block w-100" alt="...">
+                                            <img src="https://asq.cl/wp-content/uploads/2018/07/logo_agrosuper.png" class="d-block w-100" alt="...">
                                         </a>
                                     </div>
                                 </div>
@@ -146,21 +146,31 @@
 
             </div>
 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <section>
+                <div id="indi">
+                    <h3>Indicadores Economicos </h3>
+                </div>
+                <div>
+                    <button type="button" id='buscar'> Buscar Indicadores</button>
+                </div>
+                <div id="in">
+                    <p id="uf"></p>
+                    <p id="dolar"></p>
+                </div>
+            </section>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script src="api.js"></script>
+
             <div id="cli">
                 Nuestros clientes
             </div>
@@ -180,6 +190,11 @@
                 </ul>
             </section>
         </div>
+
+        <div id="map"></div>
+        <script src="maps.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+
         <div id="pagina">
             <div id="contenido"></div>
             <clas id="pie"><img class="be" src="img/abeja.png"></clas>
