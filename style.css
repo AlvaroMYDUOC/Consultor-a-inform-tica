@@ -242,6 +242,10 @@
         background-size: 130vw;
         padding: 3vw;
     }
+    #map {
+        height: 50vh;
+        width: 100%;
+    }
 }
 
 @media(min-width: 992px) {
