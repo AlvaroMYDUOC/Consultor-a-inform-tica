@@ -9,173 +9,177 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="icon" href="img/abeja.ico">
+    <link rel="stylesheet" href="icon.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="boton.js"></script>
 
 </head>
 
 
 <body>
-
+    <span class="icon-chevron-small-up"></span>
+    <!--MENU-->
     <section>
 
         <ul class="menu">
-            <li><img src="img/we_think_code.png" width="150" height="80"></li>
+            <li><img src="img/we_think_code.png" width="120vw" height="75vw"></li>
             <li><a href="index.html">INICIO</a></li>
             <li><a href="#div00">NOSOTROS</a></li>
             <li><a href="#div0">SERVICIOS</a></li>
             <li><a href="#trab">TRABAJOS</a></li>
             <li><a href="#cli">CLIENTES</a></li>
             <li><a href="#pagina">CONTÁCTANOS</a></li>
-            <li><img src="img/abeja.png" width="100" height="85"></li>
+            <li><img src="img/abeja.png" width="90vw" height="80vw"></li>
         </ul>
     </section>
+    <!--NOSOTROS-->
     <header class="intro">
         <div class="inicio">
             Somos una empresa de Desarrollo Informatico
         </div>
 
+        <!--EQUIPO-->
         <section>
             <div id="div00">
                 NUESTRO EQUIPO
             </div>
-            <div class="row">
+            <div id="fondo1">
                 <div class="card-group">
-                    <div class="card">
+                    <div class="card text-white bg-dark mb-3">
                         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQFxtDMu1tL3ug/profile-displayphoto-shrink_400_400/0/1516520717668?e=1622678400&v=beta&t=2RDupysZVjd9isP2kKijCSn6P3oxd8XbheIPLq0AMyg" width="1" height="300" class="card-img-top" alt="RICARDO">
                         <div class="card-body">
                             <h5 class="card-title">Ricardo Pantoja</h5>
                             <p class="card-text">Ingeniero en Informatica</p>
 
-                            <a href="https://www.linkedin.com/in/ricardo-pantoja-3b0ba813/" class="btn btn-primary">Mostrar Linkedin</a>
+                            <a href="https://www.linkedin.com/in/ricardo-pantoja-3b0ba813/" class="btn btn-light">Mostrar Linkedin</a>
 
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card text-white bg-dark mb-3">
                         <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHKmrsLGR36Sw/profile-displayphoto-shrink_400_400/0/1524263775816?e=1622678400&v=beta&t=MxhW6P8LmQ-rGvc2rIGauzUeM9FPFjNwduFEtZj-354" width="1" height="300" class="card-img-top" alt="GLADYS
                               ">
                         <div class="card-body">
                             <h5 class="card-title">Gladys Soto</h5>
                             <p class="card-text">Ingeniera en Informatica</p>
 
-                            <a href="https://www.linkedin.com/in/gladys-soto-8b806b24/" class="btn btn-primary">Mostrar Linkedin</a>
+                            <a href="https://www.linkedin.com/in/gladys-soto-8b806b24/" class="btn btn-light">Mostrar Linkedin</a>
                         </div>
                     </div>
-                </div>
 
 
-                <!-- Optional JavaScript; choose one of the two! -->
 
-                <!-- Option 1: Bootstrap Bundle with Popper -->
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+                    <!-- Optional JavaScript; choose one of the two! -->
 
-                <!-- Option 2: Separate Popper and Bootstrap JS -->
-                <!--
+                    <!-- Option 1: Bootstrap Bundle with Popper -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+                    <!-- Option 2: Separate Popper and Bootstrap JS -->
+                    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     -->
-            </div>
+                </div>
         </section>
-        <!--PRIMER TÍTULO-->
+        </div>
+        <!--SERVICIOS-->
         <section>
+            <div id="ser">SERVICIOS</div>
             <div id="div0">
-                SERVICIOS
+
                 <div id="texto">
                     <p>Empresa destinada a Asesorar y Acompañar en los desarrollos de Sistemas Informáticos. <br> Principalmente en Sistemas SAP. Nuestro principal negocio es el Desarrollo y Soporte en SAP.
                         <br> Hemos hecho desde Desarrollos ABAP hasta Configuración Funcional en distintos Módulos. <br> Los principales Módulos en los que se han Trabajado son CRM, MM, SD, FI, LE. <br> He integraciones con SAP PO.</p>
                 </div>
             </div>
         </section>
-        <!---CUERPO DE TEXTO 1-->
-        <div id="div1">
 
-        </div>
+        <!---TRABAJOS-->
 
-        <!---TERCER TÍTULO-->
 
-        <br>
-        <br>
         <div id="trab">
             Trabajos realizados
         </div>
+        <div id="fondo">
 
-
-        <div class="carrusel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <a href="....">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUe30HndW9vGgcUPH0mPkX2D40PkPus1eX2GbtOxC48ge3w4-L_BvaOC7kSyInBC5on7g&usqp=CAU" class="d-block w-100" alt="..." width="620" height="450">
-                                    </a>
+            <div class="carrusel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="....">
+                                            <img src="https://i.ibb.co/w4934JL/klipartz-com.png" class="d-block w-100" alt="..." width="32.2vw" height="550vw">
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="....">
+                                            <img src="http://download.seaicons.com/download/i83642/pelfusion/long-shadow-media/pelfusion-long-shadow-media-lcd-monitor.ico" class="d-block w-100" alt="..." width="32.2vw" height="550vw">
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <a href="....">
-                                        <img src="http://download.seaicons.com/download/i83642/pelfusion/long-shadow-media/pelfusion-long-shadow-media-lcd-monitor.ico" class="d-block w-100" alt="..." width="620" height="450">
-                                    </a>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                               <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
                               <span class="visually-hidden">Next</span>
                             </button>
-                        </div>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
 
-            <!-- Option 1: Bootstrap Bundle with Popper -->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
-            <!-- Option 2: Separate Popper and Bootstrap JS -->
-            <!--
+                <!-- Option 2: Separate Popper and Bootstrap JS -->
+                <!--
                 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
                  -->
 
-        </div>
+            </div>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="cli">
-            Nuestros clientes
-        </div>
-        <div class="cli2">
-            Conoce nuestros clientes
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="cli">
+                Nuestros clientes
+            </div>
+            <div id="cli2">
+                Conoce nuestros clientes
 
-        </div>
-        <br>
-        <section>
-            <ul class="clientes">
-                <li><img src="https://www.expoinclusion.cl/wp-content/uploads/2020/08/logo-agrosuper.png" width="150" height="80"></li>
-                &nbsp;
-                <li><img src="https://iconape.com/wp-content/files/dd/273321/svg/grupo-polpaico-logo-logo-icon-png-svg.png" width="200" height="80"></li>
-                &nbsp;&nbsp;
-                <li><img src="https://www.vialequipment.com/vialequipment/en/wp-content/grand-media/image/Salfacorp.png" width="200" height="80"></li>
-            </ul>
-        </section>
+            </div>
 
+            <br>
+            <section>
+                <ul class="clientes">
+                    <li><img src="https://www.expoinclusion.cl/wp-content/uploads/2020/08/logo-agrosuper.png" width="150" height="80"></li>
+                    &nbsp;
+                    <li><img src="https://iconape.com/wp-content/files/dd/273321/svg/grupo-polpaico-logo-logo-icon-png-svg.png" width="200" height="80"></li>
+                    &nbsp;&nbsp;
+                    <li><img src="https://www.vialequipment.com/vialequipment/en/wp-content/grand-media/image/Salfacorp.png" width="200" height="80"></li>
+                </ul>
+            </section>
+        </div>
         <div id="pagina">
             <div id="contenido"></div>
             <div id="pie"><img src="img/abeja.png" width="65" height="60"></div>
@@ -184,7 +188,7 @@
                 <a href="https://cl.linkedin.com/company/4beeant"> <img src="img/linkedin.png" width="30" height="30"></a>
             </div>
         </div>
-        <section></section>
+
 </body>
 
 </html>
